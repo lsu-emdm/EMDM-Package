@@ -1,0 +1,29 @@
+{
+	"pattrstorage" : 	{
+		"name" : "emdm.shift~",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"delay" : [ 120.0 ],
+					"feedback" : [ 0.4 ],
+					"shift_amount" : [ -4.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"delay" : [ 200.0 ],
+					"feedback" : [ 0.4 ],
+					"shift_amount" : [ -12.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
