@@ -1,0 +1,44 @@
+{
+	"author" : "LSUEMDM",
+	"authors" : ["Jesse Allison"   ],
+	"description" : "A package of patches, modules, and other utilities for making music in Max",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "Overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "7.0.6",
+	"name" : "Experimental Music Tools",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "10.7.x"
+		}
+,
+		"windows" : 		{
+			"platform" : [  ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"tags" : [ "externals", "abstractions", "patches", "audio", "music", "performance" ],
+	"version" : "0.1.0",
+	"website" : "http://emdm.lsu.edu",
+	"filelist" : 	{
+		"examples" : [ ],
+		"extensions" : [  ],
+		"externals" : [  ],
+		"patchers" : [  ],
+		"help" : [  ],
+		"jsui" : [  ],
+		"media" : [ ],
+		"misc" : [ ],
+		"docs" : [ ],
+		"javascript" : [  ],
+		"extras" : [  ]
+	}
+,
+	"c74install" : 1,
+	"installdate" : 3614045726
+}
