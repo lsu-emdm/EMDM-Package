@@ -1,0 +1,69 @@
+{
+	"pattrstorage" : 	{
+		"name" : "emdm.granule~",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"append" : [ 0 ],
+					"length" : [ 3.940000000000001 ],
+					"loop" : [ 0 ],
+					"pitch_ratio" : [ 0.39 ],
+					"playback_freq" : [ 0.5 ],
+					"pulse_freq" : [ 169.0 ],
+					"record" : [ 0 ],
+					"start" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"append" : [ 0 ],
+					"length" : [ 20 ],
+					"loop" : [ 0 ],
+					"pitch_ratio" : [ 0.8 ],
+					"playback_freq" : [ 0.8 ],
+					"pulse_freq" : [ 250.0 ],
+					"record" : [ 0 ],
+					"start" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"append" : [ 0 ],
+					"length" : [ 330.0 ],
+					"loop" : [ 0 ],
+					"pitch_ratio" : [ 0.863 ],
+					"playback_freq" : [ 0.5 ],
+					"pulse_freq" : [ 169.0 ],
+					"record" : [ 0 ],
+					"start" : [ 2036.870818775923226 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"append" : [ 0 ],
+					"length" : [ 100.0 ],
+					"loop" : [ 0 ],
+					"pitch_ratio" : [ 2.0 ],
+					"playback_freq" : [ 1.0 ],
+					"pulse_freq" : [ 60.0 ],
+					"record" : [ 0 ],
+					"start" : [ 792.08619520697539 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
