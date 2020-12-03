@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 149.0, 383.0, 982.0, 843.0 ],
+		"rect" : [ 109.0, 79.0, 982.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -79,6 +79,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 653.0, 818.833331823348999, 43.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -90,6 +94,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 473.0, 818.833331823348999, 43.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -102,6 +110,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 651.0, 115.0, 36.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in~ 3"
 				}
 
@@ -114,6 +126,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 469.5, 115.0, 36.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in~ 2"
 				}
 
@@ -126,6 +142,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 67.499999582767487, 27.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -575,6 +595,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "emdm.shift~.json",
 					"id" : "obj-83",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -652,7 +673,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.166657984256744, 21.0, 337.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 422.0, 376.0, 181.0, 36.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 181.0, 36.0 ],
 					"text" : "emdm.shift~"
 				}
 
@@ -811,7 +832,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 678.0, 331.875, 207.0, 24.0 ],
+					"patching_rect" : [ 692.0, 327.333340227603912, 134.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 231.166655659675598, 80.125004529953003, 125.0, 24.0 ],
 					"text" : "shift_amount_R"
@@ -839,7 +860,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 666.0, 396.0, 204.0, 24.0 ],
+					"patching_rect" : [ 666.0, 396.0, 109.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 229.666655659675598, 114.666663348674774, 100.0, 24.0 ],
 					"text" : "shift_ratio_R"
@@ -877,7 +898,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.333341181278229, 323.0, 92.666664958000183, 19.0 ],
+					"patching_rect" : [ 345.000008463859558, 327.333340227603912, 92.666664958000183, 19.0 ],
 					"text" : "shiftAmount"
 				}
 
@@ -892,7 +913,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.666674315929413, 271.333338499069214, 127.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.333337187767029, 354.666670083999634, 199.0, 24.0 ],
+					"presentation_rect" : [ 130.666655659675598, 47.666670083999634, 199.0, 24.0 ],
 					"text" : "shift_amount [semitones]"
 				}
 
@@ -1527,24 +1548,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.833315968513489, 12.833333015441895, 296.0, 45.666666984558105 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.666655659675598, 480.0, 502.5, 248.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 502.5, 248.0 ],
 					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"forceaspect" : 1,
-					"id" : "obj-77",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 733.0, 824.0, 100.0, 49.601593625498012 ],
-					"pic" : "/Users/jesseallison/Box/Teaching/7745 Instrument Paradigms/emdm-instruments/instruments-complete/emdm.shift~.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 502.5, 249.248007968127496 ]
 				}
 
 			}
@@ -2248,6 +2253,22 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "emdm.shift~.json",
+				"bootpath" : "~/Box/Teaching/7745 Instrument Paradigms/emdm-instruments/instruments-final/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
