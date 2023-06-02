@@ -1,0 +1,28 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "emdm.ANG~.maxpat",
+	"origin" : "emdm.ANG~.maxpat",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "emdm.ANG~.maxpat",
+		"origname" : "~/Desktop/emdm.ang~/patchers/emdm.ANG~.maxpat",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Panspeed" : 5000.0,
+				"monogain" : -70.0,
+				"postverb[3]" : 5000.0,
+				"preverb[1]" : 500.0,
+				"stereogain" : 0.222540364272604,
+				"togglebp[1]" : 1.0,
+				"togglebp[2]" : 1.0
+			}
+
+		}
+
+	}
+
+}
